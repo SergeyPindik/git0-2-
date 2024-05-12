@@ -4,11 +4,5 @@ int main()
 {
     int n;
     std::cin >> n;
-    bool x = !(n % 2);
-    if (x) {
-        std::cout << "Yes\n";
-    }
-    else {
-        std::cout << "No\n";
-    }
+    n % 2 == 0 ? std::cout << "Yes\n" : std::cout << "No\n";
 }
